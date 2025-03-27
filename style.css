@@ -1,0 +1,67 @@
+/* style.css */
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 600px;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    background: white;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.large-input {
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    -moz-appearance: textfield;
+    font-family: 'Inter', sans-serif;
+}
+.large-input::-webkit-outer-spin-button,
+.large-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+td {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+td:last-child {
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
